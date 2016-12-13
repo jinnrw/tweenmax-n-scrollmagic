@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link href=" https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.9/jquery.fullPage.css" rel="stylesheet">
+ 
+</head>
+<body>
+  <div class="wrapper">
+    <div class="logo-header">
+      <a href=""><div class="logo"></div></a>
+    </div>
+
+
+    <div class="nav">
+      <ul>
+        <li><span  id="link-h">Home</span></li>
+        <li><span id="link-p1">Page 1</span></li>
+        <li><span id="link-p2">Page 2</span></li>
+      </ul>
+    </div>
+
+
+    <div id="fullpage" class="page-container">
+
+      <div id="page-loader" class="full-screen"></div>     
+
+      <div id="home" class="page full-screen">
+        <div class="page-inner">
+          <h1 class="page-title">Hello World!</h1>
+          <p class="page-content">Text Animation #1
+            <span class="page-content-cover"></span>
+          </p>
+        </div>
+      </div>
+
+      <!-- ===== Page 1 ===== -->
+      <div id="p-1" class="page full-screen">
+        <div class="page-inner">
+          <h1 class="page-title">Parallax</h1>
+          
+          <img class="page-img page-img-1" src="http://www.hermanmiller.com/content/dam/hermanmiller/page_assets/products/aeron_remastered/assets/images/remastered_cascade_C.MD.jpg" alt="">
+          <img class="page-img page-img-2" src="http://www.hermanmiller.com/content/dam/hermanmiller/page_assets/products/aeron_remastered/assets/images/remastered_cascade_B.SM.jpg" alt="" >
+          <img class="page-img page-img-3" src="http://www.hermanmiller.com/content/dam/hermanmiller/page_assets/products/aeron_remastered/assets/images/remastered_cascade_A.SM.png" alt="">
+
+        </div>
+      </div>
+
+      <div id="p-2" class="page full-screen">
+        <div class="page-inner">
+          <h1 class="page-title">#2</h1>
+        </div>
+      </div>
+    </div> <!-- /fullpage-->
+  </div> <!-- /wrapper-->
+
+
+
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.9/jquery.fullPage.js"></script>
+
+
+<!--<script src="node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js"></script>
+<script src="node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>-->
+
+<!-- ===== Scroll Magic Library ===== -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/jquery.ScrollMagic.min.js"></script>-->
+
+<!-- ========== Velocity JS ========== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.4.0/velocity.min.js"></script>
+
+
+<script src="main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
